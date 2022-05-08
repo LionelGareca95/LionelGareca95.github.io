@@ -1,0 +1,98 @@
+.lg {
+    text-decoration: none;
+}
+.formulario {
+    max-width: 75rem;
+    width: 94%;
+    margin: auto;
+    position: relative;
+
+  }
+
+.titulo {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 4rem;
+  color: $azulOscuro;
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+}
+  .formulario .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    color: $azulOscuro;
+  
+     
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 4rem 0;
+  }
+  .contact-form .input-text {
+    background-color: $grisOscuro;
+    display: block;
+    width: 100%;
+    height: 3rem;
+    border-width: 0 0 1px 0 solid;
+    border-color: $azul;
+    font-size: 1.8rem;
+    line-height: 26px;
+    font-weight: 400;
+    
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    margin-top: 5rem;
+    bottom: 5rem;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: $azul;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form .errMsj{
+		color:  $naranja;
+	}
+
+	.valid{
+		outline: 2px solid seagreen;
+    
+	}
+
+	.invalid{
+		outline: 2px solid $naranja;
+    
+	}

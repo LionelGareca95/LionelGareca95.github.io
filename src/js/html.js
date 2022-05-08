@@ -1,0 +1,4 @@
+document.write('Sus siglas HyperText Markup Language, que significa literalmente Lenguaje de marcado de hipertexto. Es el estándar con el que están programadas todas las webs. La última versión estable de HTML, HTML5 convierte a HTML de un simple formato de marcado para estructurar documentos en una plataforma completa de desarrollo de aplicaciones. Entre otras características, HTML5 incluye nuevos elementos y API de JavaScript para mejorar el almacenamiento, la multimedia y el acceso al hardware')
+
+var el = document.getElementById("lenguaje");
+el.setAttribute("style", "justify-content: center;");

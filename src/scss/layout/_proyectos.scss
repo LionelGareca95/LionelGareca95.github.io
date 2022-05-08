@@ -1,0 +1,154 @@
+
+
+#timeline {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tl-item {
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  height: 30rem;
+  overflow: hidden;
+  transition: width 0.5s ease;
+  flex: 0 0 calc(50%);
+  @include telefono {
+    flex: 0 0 calc(25%);
+    height: 40rem;
+  }
+  
+  
+  &:before, &:after {
+    transform: translate3d(0, 0, 0);
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+  }
+
+  &:after {
+    background-color: transparent;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+  &:before {
+    background: #000428; 
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  
+    background: linear-gradient(to left, #004e92, #000428);
+    z-index: 1;
+    opacity: 0;
+    transform: translate3d(0, 0, 0) translateY(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  &:hover {
+    width: 60% !important;
+    
+    &:after {
+      opacity: 0;
+    }
+
+    &:before {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) translateY(0);
+      transition: opacity 1s ease, transform 1s ease 0.25s;
+    }
+    
+    .tl-content {
+      opacity: 1;
+      transform: translateY(0);
+      transition: all 0.75s ease 0.5s;
+
+      p {
+        @include telefono {
+          font-size: 2rem;
+        }
+        color: #fff;
+        font-size: 1.2rem;
+      }
+    }
+
+    
+    }
+  }
+
+
+.tl-content {
+  transform: translate3d(0, 0, 0) translateY(25px);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 0 1.618em;
+  top: 20%;
+  opacity: 0;
+  
+  h1 {
+    font-family: $fuenteSecundaria;
+    text-transform: uppercase;
+    color: $naranja;
+    font-size: 1.44rem;
+    font-weight: normal;
+  }
+}
+
+.tl-year {
+  color: $blanco;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  
+  
+  
+  .año {
+    border: $blanco;
+    margin-bottom: 0;
+    padding: .4rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+}
+
+.tl-bg {
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: filter 0.5s ease;
+  filter: grayscale(100%);
+}
+
+.corina-accesorios {
+  background-image: url(/build/img/CorinaAccesorios.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.afilados-rosario {
+  background-image: url(/build/img/AfiladosRosario.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sitios {
+  color: $naranja;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: $fuenteSecundaria;
+
+  &:hover{
+    color: $blanco;
+  }
+
+  
+}

@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {max-width: 100%;}
+
+.contenedor {
+    max-width: 100%;
+}
+
+body{
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 2rem ;
+}
+
+::-webkit-scrollbar-track {
+    background: $grisOscuro;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000428;  
+    background: -webkit-linear-gradient(to left, #004e92, #000428); 
+    background: linear-gradient(to left, #004e92, #000428); 
+}
