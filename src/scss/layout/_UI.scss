@@ -1,29 +1,12 @@
-#nav {
-    background: #000428; 
-    background: -webkit-linear-gradient(to left, #004e92, #000428);  
-    background: linear-gradient(to left, #004e92, #000428); 
-
-}
-
-.bg{
-
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.about-right {
-    background: #000428;  
-    background: -webkit-linear-gradient(to left, #004e92, #000428); 
-    background: linear-gradient(to left, #004e92, #000428); 
-}
-
-.about-left-content > div {
+/// contenedor sobre mi
+.about-wrapper{
+    height: auto;
     background: #23074d;
     background: -webkit-linear-gradient(to right, #b34526, #23074d);
     background: linear-gradient(to left, #6e2e1c, #280957);
-}
 
+}
+    
 
 .contenedor-formulario {
     background: #485563; 
@@ -33,7 +16,7 @@
         
    }
 
-.icons  {
+.icons {
     background: #000428; 
     background: -webkit-linear-gradient(to left, #004e92, #000428);  
     background: linear-gradient(to left, #004e92, #000428); 
@@ -47,11 +30,6 @@
     
 }
 
-.about-left {
-    background: #23074d;
-    background: -webkit-linear-gradient(to right, #b34526, #23074d);
-    background: linear-gradient(to left, #943920, #280957); ;
-}
 
 .about-left-content{
     box-shadow: 0px 0px 18px -1px rgba(99, 88, 88, 0.39);
@@ -72,7 +50,6 @@
     background: linear-gradient(to left, #004e92, #000428); 
 
 }
-
 
 #offcanvasWithBackdrop{
     background: #485563; 
