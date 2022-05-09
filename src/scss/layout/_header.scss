@@ -1,24 +1,15 @@
-.image{
-        background-size: cover;
-        height: 100vh;
-
-}
-
-.header-imagen {
-
-        height: 38rem;
-        @include telefono {
-                height: auto;
-        }
-      
-}
 .header {
+        padding-top: 1.5rem;
+        height: 30rem;
+}
 
-        background-image: url(/build/img/software-developer.webp);
-        background-position: center center;
-        background-size: cover;
+.body {
+        background: rgba(0, 0, 0, 0.4) url(/build/img/software-developer.webp);
         background-repeat: no-repeat;
-      
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+
 }
 
 #nav {
@@ -27,7 +18,6 @@
         list-style: none;
         font-size: 1.8rem;
         font-family: $fuentePrincipal;
-        height: 4rem;
         color: $grisClaro;
         align-items: center;
        
@@ -61,6 +51,10 @@
                 font-size: 4rem;    
          }
         
+}
+
+#titulo {
+        padding-top: 20rem;
 }
 
 
