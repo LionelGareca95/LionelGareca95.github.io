@@ -1,12 +1,9 @@
-.lg {
-    text-decoration: none;
-}
+
 .formulario {
     max-width: 75rem;
     width: 94%;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
-
   }
 
 .titulo {
@@ -15,7 +12,7 @@
   letter-spacing: 3px;
   font-size: 3.2em;
   line-height: 48px;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   color: $azulOscuro;
   padding-top: 4rem;
   margin-bottom: 1rem;
@@ -33,13 +30,14 @@
   
   .contact-form .form-field {
     position: relative;
-    margin: 4rem 0;
+    margin: 8rem 0;
   }
   .contact-form .input-text {
     background-color: $grisOscuro;
     display: block;
     width: 100%;
-    height: 3rem;
+    height: 5rem;
+    border-radius: 1rem;
     border-width: 0 0 1px 0 solid;
     border-color: $azul;
     font-size: 1.8rem;
@@ -58,18 +56,16 @@
   .contact-form .label {
     position: absolute;
     left: 20px;
-    margin-top: 5rem;
-    bottom: 5rem;
+    bottom: 7rem;
     font-size: 2rem;
     line-height: 26px;
     font-weight: 400;
     color: $azul;
     text-align: center;
     cursor: text;
-    transition: -webkit-transform .2s ease-in-out;
     transition: transform .2s ease-in-out;
-    transition: transform .2s ease-in-out, 
-    -webkit-transform .2s ease-in-out;
+    
+
   }
   .contact-form .submit-btn {
 
@@ -97,3 +93,29 @@
 		outline: 2px solid $naranja;
     
 	}
+
+
+  // -------------------
+
+
+  .btn-submit {
+    cursor: pointer;
+    left: 42%;
+  
+    }
+  
+    .third {
+    border-color: #3498db;
+    color: $gris;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 11rem;
+    border-radius: 1rem;
+    }
+    
+    .third:hover {
+      color: $gris;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    }
+    
