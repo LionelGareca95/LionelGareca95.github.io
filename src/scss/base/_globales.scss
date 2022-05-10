@@ -1,4 +1,6 @@
 html {
+    width: 100%;
+    overflow-x: hidden;
     font-size: 62.5%;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -13,9 +15,6 @@ img {max-width: 100%;}
     max-width: 100%;
 }
 
-body{
-    background-color: black;
-}
 ::-webkit-scrollbar {
     width: 2rem;
 }

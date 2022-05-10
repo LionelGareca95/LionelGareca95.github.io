@@ -1,5 +1,6 @@
 
 .about-left{
+    padding-top: 20rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,16 +13,13 @@
     padding: 4rem 4rem 2.5rem 5rem;
     text-align: center;
     border-radius: 12px 12px 0 0;
-    background: rgba(0, 0, 0, 0.1);
+    
 }
 .about-left-content{
     border-radius: 12px;
-    width:70%;
+    width: auto;
     height: 50rem;
-    background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+ 
 }
 .sobre_mi {
     height: 50rem;
@@ -29,7 +27,6 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
 .about-img img{
     display: block;
-    width: 300px;
 }
 .about-img{
     width: 300px;
@@ -65,10 +62,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     justify-content: center;
     padding: 1rem 0;
     border-radius: 0 0 12px 12px;
-    background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
 }
 .icons li{
     list-style-type: none;
@@ -81,13 +75,14 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+
 }
 .icons li:hover{
    background-color: transparent;
-   border:#fff solid 2px;
+   border: $blanco solid 2px;
 }
 .about-right{
     height: 100vh;
@@ -156,9 +151,11 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     .about-left{
         position: relative;
     }
+
+   
     .about-left-content{
         position: absolute;
-        width:70%
+        width:100%
     }
     
 .credit{

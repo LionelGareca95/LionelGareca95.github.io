@@ -9,7 +9,7 @@ var typed = new Typed('#typed',{
     });
 
     var typed = new Typed('#title',{
-        strings:["Front-End Developer"],
+        strings:["Lionel Gareca"],
         typeSpeed: 90,
         backSpeed: 0,
         backDelay: 0,
@@ -20,7 +20,7 @@ var typed = new Typed('#typed',{
 
 
         var typed = new Typed('#titulo',{
-        strings:["Lionel Gareca"],
+        strings:["Front-End Developer"],
         typeSpeed: 90,
         backSpeed: 0,
         backDelay: 0,
