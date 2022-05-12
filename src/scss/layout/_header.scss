@@ -4,12 +4,12 @@
 }
 
 .body {
-        background: rgba(0, 0, 0, 0.4) url(/build/img/software-developer.webp);
+        background: rgba(0, 0, 0, 0.3) url(/build/img/software-developer.webp);
         background-repeat: no-repeat;
-        background-size: cover;
         object-fit: cover;
         background-attachment: fixed;
         background-blend-mode: darken;
+        max-width: 100%;
 
 }
 

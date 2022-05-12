@@ -66,9 +66,5 @@ const form = document.querySelector('form')
 	})
 
 
-		 document.getElementById("btn-social").addEventListener('click', ev => {
-			ev.target.classList.toggle('show')
-
-			console.log(ev.target)
-		})
+		
 
