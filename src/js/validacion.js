@@ -62,10 +62,13 @@ const form = document.querySelector('form')
 			ev.target.classList.add('invalid')
 			ev.target.classList.remove('valid')
 		}
-	/*
-		const classAdd = (msj === "") ? 'valid' : 'invalid'
-		const classRemove = (msj === "") ? 'invalid' : 'valid'
-		ev.target.classList.add(classAdd)
-		ev.target.classList.remove(classRemove)
-	*/
+	
 	})
+
+
+		 document.getElementById("btn-social").addEventListener('click', ev => {
+			ev.target.classList.toggle('show')
+
+			console.log(ev.target)
+		})
+
