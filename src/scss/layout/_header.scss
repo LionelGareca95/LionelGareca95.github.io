@@ -6,7 +6,7 @@
 .body {
         background: rgba(0, 0, 0, 0.3) url(/build/img/software-developer.webp);
         background-repeat: no-repeat;
-        object-fit: cover;
+        background-size: cover;
         background-attachment: fixed;
         background-blend-mode: darken;
         max-width: 100%;
