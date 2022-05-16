@@ -86,24 +86,20 @@
 
 	.valid{
 		outline: 2px solid seagreen;
+    border-radius: 1rem;
 	}
 
 	.invalid{
 		outline: 2px solid $naranja;
+    border-radius: 1rem;
     
 	}
 
 
-  // -------------------
+  // Boton Enviar Formulario -------------------
 
-
-  .btn-submit {
-    cursor: pointer;
-    left: 40%;
-  
-    }
-  
-    .third {
+    .submit {
+    margin: 0 auto;
     border-color: #3498db;
     color: $gris;
     box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
@@ -113,7 +109,7 @@
     border-radius: 1rem;
     }
     
-    .third:hover {
+    .submit:hover {
       color: $gris;
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
     }
