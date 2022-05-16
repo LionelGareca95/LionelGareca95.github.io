@@ -1,5 +1,5 @@
 var typed = new Typed('#typed',{
-    strings:["Soy Apasionado por el Diseño y Desarrollo Web, suelo ser detallista en mis proyectos, buscando siempre la mejor experiencia para el usuario.... Con respecto a lo laboral me considero alguien responsable y que puede adaptarse fácilmente a las necesidades de un grupo de trabajo"],
+    strings:["Soy Apasionado por el Desarrollo Web; considero través de los detalles, la prolijidad y la organizacion la calidad de los proyectos a realizar"],
     typeSpeed: 90,
         backSpeed: 0,
         backDelay: 0,
