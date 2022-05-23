@@ -10,12 +10,12 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 3.2em;
+  font-size: 3.5rem;
   line-height: 48px;
   padding-bottom: 6rem;
-  color: $azulOscuro;
-  padding-top: 4rem;
-  margin-bottom: 1rem;
+  color: $blanco;
+  padding: 5rem;
+  font-weight: bolder;
 }
   .formulario .title {
     text-align: center;
@@ -110,7 +110,7 @@
     }
     
     .submit:hover {
-      color: $gris;
+    color: $gris;
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
     }
     

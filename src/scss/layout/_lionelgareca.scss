@@ -1,21 +1,14 @@
 .logos-svg {
-    @include telefono {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-items: center;
-        gap: 2rem;
-        padding: 2rem 2rem;
-    }
+   
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 2rem;
     padding: 2rem 2rem;
     
     .logo {
-        width: 11rem;
-        height: 11rem;
-        
+        width: 10rem;
+        height: 10rem;
     }
    
 }
@@ -26,9 +19,10 @@
     letter-spacing: 3px;
     font-size: 3.5rem;
     line-height: 48px;
-    padding-bottom: 48px;
-    color: $azulOscuro;
-    padding: 4rem;
+    padding-bottom: 5rem;
+    color: $blanco;
+    padding: 10rem;
+    font-weight: bolder;
     
 }
 
