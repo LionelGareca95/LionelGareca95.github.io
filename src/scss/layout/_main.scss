@@ -19,8 +19,6 @@
     padding-right: 1rem;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,55,130,1) 52%, rgba(7,53,150,1) 73%, rgba(6,78,166,1) 90%, rgba(3,137,205,1) 100%, rgba(0,212,255,1) 100%);
-    -webkit-box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
-    -moz-box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
     box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
     border-radius: 12px;
     width: auto;
@@ -146,7 +144,7 @@
     border: 2px solid #fff;
     border-radius: 20px;
     padding: 1rem 0;
-    width: 15rem;
+    width: 13rem;
     font-weight: 600;
     background: transparent;
     margin: 0 1rem;
@@ -159,13 +157,16 @@
     color: #fff;
     border-color: #fff;
     transition: all 0.3s ease-in-out;
+    a:hover {
+       color: $negro; 
+    }
 }
 
 .btn.btn-white{
     transition: all 0.5s ease-in-out;
 }
 .btn.btn-white:hover{
-    background: $naranja;
+    background: $negro;
     color: #fff;
 }
   
