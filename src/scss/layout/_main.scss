@@ -63,8 +63,6 @@
 .about_content {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,55,130,1) 52%, rgba(7,53,150,1) 73%, rgba(6,78,166,1) 90%, rgba(3,137,205,1) 100%, rgba(0,212,255,1) 100%);
-    -webkit-box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
-    -moz-box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
     box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
     width: auto;
     height: 50rem;
@@ -75,9 +73,7 @@
     border-radius: 12px;
     
 }
-#typed {
-    width: 30rem;
-}
+
 .about-img img{
     display: block;
 }
@@ -212,6 +208,7 @@
 // Typed.Js --------------------------------------------------------
 #typed {
     display: inline-block;
+    width: 30rem;
     }
 
     .typed-cursor {

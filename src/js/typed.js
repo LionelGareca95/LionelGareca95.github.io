@@ -7,24 +7,3 @@ var typed = new Typed('#typed',{
         loop: false,
         cursorChar: "",
     });
-
-    var typed = new Typed('#title',{
-        strings:["Lionel Gareca"],
-        typeSpeed: 90,
-        backSpeed: 0,
-        backDelay: 0,
-        startDelay: 2000,
-        loop: false,
-        cursorChar: "",
-        });
-
-
-        var typed = new Typed('#titulo',{
-        strings:["Front-End Developer"],
-        typeSpeed: 90,
-        backSpeed: 0,
-        backDelay: 0,
-        startDelay: 2000,
-        loop: false,
-        cursorChar: "",
-        });
