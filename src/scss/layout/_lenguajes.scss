@@ -9,7 +9,6 @@
     .logo {
         width: 10rem;
         height: 10rem;
-        transform-style: preserve-3d;
     }
    
 }
@@ -20,7 +19,7 @@
     letter-spacing: 3px;
     font-size: 3.5rem;
     color: $blanco;
-    margin: 10rem;
+    padding: 10rem 0;
     font-weight: bolder;
     
 }
