@@ -36,6 +36,7 @@
     "elevator.js": "^1.0.1",
     "minimist": "^1.2.5",
     "swiper": "^8.2.2",
-    "tw-elements": "^1.0.0-alpha10"
+    "tw-elements": "^1.0.0-alpha10",
+    "vanilla-tilt": "^1.7.2"
   }
 }
