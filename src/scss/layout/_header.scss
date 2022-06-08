@@ -4,6 +4,7 @@
 }
 
 .body {
+        overflow-x: hidden;
         background: rgba(0, 0, 0, 0.3) url(/build/img/software-developer.webp);
         background-repeat: no-repeat;
         background-size: cover;
@@ -13,16 +14,48 @@
 
 }
 
-
+@include tablet {
+        #nav {
+                visibility: visible;
+                display: flex;
+                justify-content: space-evenly;
+                list-style: none;
+                font-size: 2.5rem;
+                font-family: $fuentePrincipal;
+                color: $grisClaro;
+                align-items: center;
+               
+        }
+}
 #nav {
+        margin-top: -1.5rem;
+       position: fixed;
+       background-color: $azulOscuro;
+       height: 100vh;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       list-style: none;
+       font-size: 2.5rem;
+       clip-path: circle(100px at 90% -10%);
+       -webkit-clip-path: circle(100px at 90% -10%);
+       transition: all 1s ease-out;
+       
+       li {
+        padding: 5rem;
         
-        display: flex;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 2.5rem;
-        font-family: $fuentePrincipal;
-        color: $grisClaro;
-        align-items: center;
+       }
+       li:nth-child(1) {
+         transition: all 0.5s ease 0.2s;
+       }
+       li:nth-child(2) {
+         transition: all 0.5s ease 0.4s;
+       }
+       li:nth-child(3) {
+        transition: all 0.5s ease 0.6s
+        }
 
        
         .scroll {
@@ -34,22 +67,9 @@
                         color: $naranja;
                 }
         }
+     
 }
 
-.parrafo {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-         font-family: $fuenteSecundaria;
-         color: $grisClaro;
-         font-weight: bolder;
-         font-size: 3rem;
-        
-}
 
 
 

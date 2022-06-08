@@ -1,11 +1,13 @@
 .menu {
     left: calc(100% - 8rem);
     top: 1rem;
+    background-color: $negro;
+    border-radius: 50%;
     position: absolute;
     border: none;
     cursor: pointer;
     padding: 0;
-    visibility: visible;
+    
     svg{
         height: 5rem;
         width: 5rem;
