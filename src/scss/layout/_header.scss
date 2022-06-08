@@ -13,7 +13,9 @@
 
 }
 
+
 #nav {
+        
         display: flex;
         justify-content: space-evenly;
         list-style: none;
@@ -46,16 +48,9 @@
          color: $grisClaro;
          font-weight: bolder;
          font-size: 3rem;
-         @include telefono {
-                 font-size: 4rem
-         }
-         
         
 }
 
-#titulo {
-        padding-top: 5rem;
-}
 
 
       
