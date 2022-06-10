@@ -4,9 +4,9 @@ const links = document.querySelectorAll('#nav li')
 
 hamburguesa.addEventListener('click', () => {
     nav.classList.toggle("open");
-    links.forEach(link => {
-        link.classList.toggle("fade")
-    })
+    // links.forEach(link => {
+    //     link.classList.toggle("fade")
+    // })
 })
 
 

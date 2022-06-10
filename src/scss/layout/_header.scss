@@ -1,17 +1,13 @@
 .header {
-        padding-top: 1.5rem;
         height: auto;
         margin-bottom: 10rem;
 }
 
 .body {
         overflow-x: hidden;
-        background: rgba(0, 0, 0, 0.3) url(/build/img/software-developer.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-blend-mode: darken;
-        max-width: 100%;
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #1686a5, #000046);
+        background: linear-gradient(to left, #1686a5, #000046); 
 
 }
 
@@ -28,37 +24,29 @@
                
         }
 }
-#nav {
-        margin-top: -1.5rem;
-       position: fixed;
-       background-color: $azulOscuro;
-       height: 100vh;
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       list-style: none;
-       font-size: 2.5rem;
-       clip-path: circle(100px at 90% -10%);
-       -webkit-clip-path: circle(100px at 90% -10%);
-       transition: all 1s ease-out;
-       
-       li {
-        padding: 5rem;
-        
-       }
-       li:nth-child(1) {
-         transition: all 0.5s ease 0.2s;
-       }
-       li:nth-child(2) {
-         transition: all 0.5s ease 0.4s;
-       }
-       li:nth-child(3) {
-        transition: all 0.5s ease 0.6s
-        }
+.open {  
+        background-color: $negro;
+        color: $blanco;
+        position: fixed;
+        z-index: 100;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 2.5rem;
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        transition: all 4s ease-in-out;
 
-       
+
+ }
+
+#nav {
+    
+
         .scroll {
                 text-decoration: none;
                 font-family: $fuentePrincipal;

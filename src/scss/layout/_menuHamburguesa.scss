@@ -4,6 +4,7 @@
     background-color: $negro;
     border-radius: 50%;
     position: absolute;
+    z-index: 100;
     border: none;
     cursor: pointer;
     padding: 0;
@@ -16,6 +17,7 @@
   @include tablet {
       .menu {
         visibility: hidden; 
+        padding-top: 2rem;
       }
   }
   .line {
@@ -52,3 +54,5 @@
     stroke-dashoffset: -134;
     stroke-width: 6;
   }
+  
+
