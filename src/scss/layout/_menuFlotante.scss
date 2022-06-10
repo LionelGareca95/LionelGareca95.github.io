@@ -22,13 +22,17 @@
 	background: $negro;
    
 }
-.container-bar .fa-arrow-up-right-from-square{
+.fa-arrow-up-right-from-square{
 	background: $azulOscuro;
 	border-radius: 0px 5px 0px 0px;
 }
+.fa-react {
+background-color: rgb(35, 201, 201);
+	
+}
 
-.container-bar .fa-github{
-	background: $grisOscuro;
+.fa-github{
+	background: rgb(0, 0, 0);
 }
 
 .container-bar .title{

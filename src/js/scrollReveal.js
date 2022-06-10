@@ -6,16 +6,6 @@ window.sr = ScrollReveal();
         distance: '-100px'
     });
 
-    sr.reveal('.header', {
-        duration: 3000,
-        origin: 'left',
-        distance: '300px'
-    });
-    sr.reveal('#nav',  {
-        duration: 3000,
-        origin: 'right',
-        distance: '-300px'
-    });
 
     /* Scrolling top*/
 

@@ -17,8 +17,9 @@
     padding-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,55,130,1) 52%, rgba(7,53,150,1) 73%, rgba(6,78,166,1) 90%, rgba(3,137,205,1) 100%, rgba(0,212,255,1) 100%);
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1686a5, #000046);
+    background: linear-gradient(to left, #1686a5, #000046); 
     box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
     border-radius: 12px;
     width: auto;
@@ -61,8 +62,9 @@
 }
 
 .about_content {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,55,130,1) 52%, rgba(7,53,150,1) 73%, rgba(6,78,166,1) 90%, rgba(3,137,205,1) 100%, rgba(0,212,255,1) 100%);
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1686a5, #000046);
+    background: linear-gradient(to left, #1686a5, #000046); 
     box-shadow: 23px 17px 8px 3px rgba(0,0,0,0.91);
     width: auto;
     height: 50rem;
